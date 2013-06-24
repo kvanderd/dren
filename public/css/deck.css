@@ -1,0 +1,36 @@
+.decks {
+  list-style: none;
+  padding: 0;
+  float: left;
+  
+}
+
+
+#dren_decks {
+	background-image:url("../img/dren_run.png");
+	width: 300px;
+	height: 320px;
+	float: right;
+}
+
+
+#welcome_user {
+
+}
+
+.decks ul li a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #60ba3e;
+	background-image:url("../img/chalkboard.png");
+    display :block;
+    height: 310px;
+	width: 400px;
+	text-align: center;
+}
+
+.decks ul li {
+	
+	list-style: none;
+	
+}

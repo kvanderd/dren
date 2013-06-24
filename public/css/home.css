@@ -1,0 +1,56 @@
+
+
+
+#login_form {
+	width: 150px;
+	height: 500px;
+	position: relative;
+	float: right;
+	padding-top: 80px;
+	padding-right: 50px;
+}
+
+/*.login_button {
+	text-align: center;
+	position: relative;
+	border-radius: 1px;
+	border-width: 3px;
+	
+
+}*/
+
+#text_input {
+	height: 40px;
+	width: 150px;
+	margin: 5px;
+}
+
+h3 {
+ color: #60ba3e;
+ font-style: helvetica;
+}
+
+#dren {
+	background-image:url('../img/dren4.png');
+	width: 550px;
+	height: 3900px;
+	position: fixed;
+}
+
+body {
+	/*background-image:url('../img/fabric_of_squares_gray_@2X.png');*/
+	display; block; 
+	background-image:url('../img/ricepaper2_@2X.png');
+}
+
+h1 {
+text-align: center;
+}
+
+/*
+#dren)colors{
+	4f0c8d - purple
+	cc33ff - pink
+	60ba3e - green
+	643e27 - brown
+}*/

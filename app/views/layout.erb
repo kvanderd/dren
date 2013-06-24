@@ -11,14 +11,16 @@
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/css/application.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/card.css">
+  <link rel="stylesheet" href="/css/stats.css">
+  <link rel="stylesheet" href="/css/deck.css">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
   <title></title>
 </head>
-<body>
-  <header>
     <% if @user %>
       <nav>
         <a class="header_button home_button" href="/decks">Home</a>
@@ -30,8 +32,8 @@
         </form>
       </nav>
       <% end %>
-  </header>
-  <div class="container">
+ <body>
+  <div id="container">
     <%= yield %>
   </div>
 </body>

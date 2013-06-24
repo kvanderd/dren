@@ -1,0 +1,35 @@
+.beautiful_card {
+  background-image:url('../img/blue_card.png');
+ 
+}
+
+#whole_card {
+  width: 500px;
+  height: 1000px;
+  float: right;
+}
+
+#dren_helper {
+	float: left;
+	background-image:url('../img/dren_helper.png');
+	height: 200px;
+	width: 330px;
+}
+
+
+
+
+/* Cards */
+.correct {
+  background-color: #b7e6bd;
+}
+
+.wrong {
+  background-color: #f3e0dd;
+}
+
+.feedback {
+  padding: 15px;
+}
+
+

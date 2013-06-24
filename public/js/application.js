@@ -43,10 +43,15 @@ $(document).ready(function() {
       $('.question').html(response).fadeIn();
       card_counter++;
       setTimeout(function () {
-        $('.question').fadeOut();
+        $('.question').toggle();
         questionRequest();
       }, 2000);
 
     });
   });
 });
+
+// $(window).load(function() {
+//   $("#welcome_message").split("");
+//   });
+
