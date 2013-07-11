@@ -1,13 +1,15 @@
 .beautiful_card {
-  background-image:url('../img/blue_card.png');
+  background-image:url('../img/chalkboard.png');
  
 }
 
 #whole_card {
   
+  background-image:url('../img/chalkboard.png');
+  height: 300px;
+  width: 400px;
+  display: inline-block;
 
-  padding-left: 230px;
-  width:150px;
  
 }
 
@@ -18,7 +20,9 @@
 	
 }
 
-
+.round {
+  text-align: center;
+}
 
 /* Cards */
 .correct {
@@ -34,3 +38,8 @@
 }
 
 
+#guess_input {
+  
+  background-color: gray;
+ 
+}
