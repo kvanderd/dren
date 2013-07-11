@@ -1,5 +1,9 @@
 
-
+#welcome_message {
+  padding-top: 320px;
+  text-align: center;
+ 
+}
 
 #login_form {
 	width: 150px;
@@ -32,8 +36,8 @@ h3 {
 
 #dren {
 	background-image:url('../img/dren4.png');
-	width: 550px;
-	height: 3900px;
+	width: 500px;
+	height: 600px;
 	position: fixed;
 }
 
@@ -45,6 +49,15 @@ body {
 
 h1 {
 text-align: center;
+}
+
+h2 {
+	/*display: relative;*/
+	width: 280px;
+}
+
+p {
+	color:white;
 }
 
 /*

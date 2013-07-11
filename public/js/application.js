@@ -51,7 +51,13 @@ $(document).ready(function() {
   });
 });
 
-// $(window).load(function() {
-//   $("#welcome_message").split("");
-//   });
+// $(document).ready(function() {
+//   var welcome = $("#welcome_message").html();
+//   var new_welcome = welcome.split("");
+//   for (var counter = 0; counter < new_welcome.length; counter++) {
+//      $("#welcome_message")new_welcome[counter].
+//   }
+
+// });
+
 

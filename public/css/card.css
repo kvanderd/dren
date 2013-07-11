@@ -4,28 +4,29 @@
 }
 
 #whole_card {
-  width: 500px;
-  height: 1000px;
-  float: right;
+  
+
+  padding-left: 230px;
+  width:150px;
+ 
 }
 
 #dren_helper {
-	float: left;
+	position: relative;
+  float: left;
 	background-image:url('../img/dren_helper.png');
-	height: 200px;
-	width: 330px;
+	
 }
-
 
 
 
 /* Cards */
 .correct {
-  background-color: #b7e6bd;
+  background-color: #60ba3e;
 }
 
 .wrong {
-  background-color: #f3e0dd;
+  background-color: #4f0c8d;
 }
 
 .feedback {

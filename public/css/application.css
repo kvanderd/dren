@@ -1,6 +1,6 @@
 #container {
   margin: 20px auto;
-  width: 900px;
+  width: 800px;
   padding: 20px;
   position: relative;
 
@@ -29,11 +29,12 @@
 
 nav {
   display: block;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   border-radius: 4px;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 50px;
+  
 }
 
 
