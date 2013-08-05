@@ -1,13 +1,12 @@
 <div id="dren_helper"</div>
-
+</div>
 <!-- <div class="guess_container"> -->
 <div id="whole_card">
-
 <h2><%= @card.question %><h2>
 
 <br />
   <form action="/guess" method="POST">
-    <input type="text" name="guess" placeholder="Your guess here...">
+    <input id="guess_input" type="text" name="guess" placeholder="Your guess here...">
     <input type="hidden" name="card_id" value="<%= @card.id %>">
     <input type="submit" value="Submit">
   </form>
