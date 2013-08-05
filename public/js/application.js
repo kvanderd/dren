@@ -4,6 +4,7 @@ var card_counter = 0;
 var user_id;
 
 
+
 function startRound() {
   $.ajax({
       url: "/rounds/card_order",
@@ -46,10 +47,11 @@ $(document).ready(function() {
         $('.question').toggle();
         questionRequest();
       }, 2000);
-
     });
   });
 });
+
+
 
 // $(document).ready(function() {
 //   var welcome = $("#welcome_message").html();

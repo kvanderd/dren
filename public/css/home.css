@@ -42,9 +42,11 @@ h3 {
 }
 
 body {
-	/*background-image:url('../img/fabric_of_squares_gray_@2X.png');*/
+	/*background-image:url('../img/cork_board.jpg');*/
 	display; block; 
-	background-image:url('../img/ricepaper2_@2X.png');
+	/*background-image:url('../img/ricepaper2_@2X.png');*/
+	background-image:url('../img/clouds.jpg');
+
 }
 
 h1 {
