@@ -1,31 +1,20 @@
 <% if @user == false %>
 Log in unsuccessful. Is caps lock on?
 <% end %>
- <div id='dren'>
- 	<center>
- 	<p id="welcome_message">Hi, I am Dren.</p>
- 	<p> Let's do Math together.</p>
- </center>
- </div>
-  <div id="login_form">
-	<h3> Sign up here:</h3>
+<div id='dren'>
+	<h2>Hi, I am Dren</h2>
+	<p>Let's Learn Math Together</p>
+</div>
+
+<div id="login_form">
+	<h2> Sign-up/Login-in here:</h2>
 
 	<form action='/users' method='post'>
-	  <input id="text_input" type="text" name="user[username]" placeholder="Username" required>
-	  <input id="text_input" type="password" name="user[password]" placeholder="Password" required>
-	  <div class="login_button">
-	  <input type="submit" value="Sign Up">
-	   </div>
-	</form>
-	<h3> Log in here: </h3>
-	<form action='/sessions' method='post'>
-	  <input id="text_input" type="text" name="user[username]" placeholder="Username" required>
-	  <input id="text_input" type="password" name="user[password]" placeholder="Password" required>
-	  
-	   <div class="login_button">
-	  <input type="submit" value="Log In">
-	    </div>
-	  
+		<input id="text_input" type="text" name="user[username]" placeholder="Username" required>
+		<input id="text_input" type="password" name="user[password]" placeholder="Password" required>
+		<div class="login_button">
+			<input type="submit" value="Submit">
+		</div>
 	</form>
 </div>
 

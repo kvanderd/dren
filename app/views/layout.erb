@@ -18,11 +18,13 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  <link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
   <title></title>
 </head>
-    <% if @user %>
+    
       <nav>
+    <% if @user %>
         <a class="header_button home_button" href="/decks">Home</a>
         <form action='/logout' method='get'>
           <input class="header_button logout_button" type="submit" value="Logout">
@@ -30,8 +32,14 @@
         <form action='/users/<%= @user.id %>' method='get'>
           <input class="header_button stats_button" type="submit" value="Stats">
         </form>
-      </nav>
+        <% else %>
+        <a class="header_button home_button" href="/">Home</a>
+        <a class="header_button logout_button" href="/about">About</a>
+        <h1 id="logo">DREN</h1>
       <% end %>
+      </nav>
+      
+      
  <body>
   <div id="container">
     <%= yield %>

@@ -5,7 +5,7 @@ get '/' do
 end
 
 post '/users' do
-	@user = User.create(params[:user])
+	@user = User.find_or_create_by_username(params[:user])
 	session["user"] = @user.id
 	redirect '/decks'
 end

@@ -1,15 +1,18 @@
 <div id="dren_helper"</div>
 </div>
+<div id="card_form">
 <!-- <div class="guess_container"> -->
-<div id="whole_card">
-<h2><%= @card.question %><h2>
-
-<br />
-  <form action="/guess" method="POST">
-    <input id="guess_input" type="text" name="guess" placeholder="Your guess here...">
-    <input type="hidden" name="card_id" value="<%= @card.id %>">
-    <input type="submit" value="Submit">
-  </form>
+<div class="whole_card">
+	<h2><%= @card.question %><h2>
 </div>
-<!-- </div> -->
+
+		<div id="card_guess">
+			<form action="/guess" method="POST">
+				<input id="guess_input" type="text" name="guess" placeholder="Your guess">
+				<input type="hidden" name="card_id" value="<%= @card.id %>">
+				<input id="guess_submit" type="submit" value="Submit">
+			</form>
+		</div>
+</div>	
+	<!-- </div> -->
 

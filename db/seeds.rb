@@ -43,3 +43,5 @@ answer_num = 9
 	decreasing_num -= 1
 	answer_num       -= 1
 end
+
+

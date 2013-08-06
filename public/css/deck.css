@@ -1,36 +1,59 @@
+
+
+.welcome_user {
+	margin-left: 13em;
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	color: #cc33ff;
+	margin-top: -5em;
+}
+
+.welcome_user h3 {
+	position: relative;
+	display: inline-block;
+	color: green;
+	font-size: 30px;
+    margin-top: -3em;
+}
+
 .decks {
   list-style: none;
-  padding: 0;
-  float: left;
-  
+  position: relative;
+  display: inline-block;
+  padding-left: 200px;
+}
+
+.deck ul {
+
+}
+
+.decks ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 40px;
+	background-image:url("../img/chalkboard.png");
+	
+  height: 310px;
+	width: 370px;
+}
+
+.decks ul li a {
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-decoration: none;
+	padding: 120px 0px 0px 80px;
+	font-size: 40px;
+
 }
 
 
 #dren_decks {
 	background-image:url("../img/dren_run.png");
 	width: 300px;
-	height: 320px;
+	height: 310px;
+	margin-top: 24em;
+	margin-right:15em;
 	float: right;
-}
-
-
-#welcome_user {
-
-}
-
-.decks ul li a {
-	text-decoration: none;
-	font-size: 40px;
-	color: #60ba3e;
-	background-image:url("../img/chalkboard.png");
-    display :block;
-    height: 310px;
-	width: 400px;
-	text-align: center;
-}
-
-.decks ul li {
-	
-	list-style: none;
-	
 }

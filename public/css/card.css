@@ -1,21 +1,86 @@
-.beautiful_card {
-  background-image:url('../img/chalkboard.png');
- 
-}
 
-#whole_card {
-  
-  background-image:url('../img/chalkboard.png');
-  height: 300px;
-  width: 400px;
+#card_form {
   display: inline-block;
+  position: relative;
+  float: right;
 
- 
 }
+
+.whole_card {
+  background-image:url('../img/chalkboard.gif');
+  height: 470px;
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  margin-left: 10em;
+}
+
+.whole_card h2 {
+  padding: 130px 0px 0px 10px;
+  color: white;
+  font-size: 2.5em;
+}
+
+#card_guess form {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+}
+
+#guess_input {
+  font-size: 2em;
+  /*margin-left: -1em;*/
+  margin-bottom: 1em;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 1em;
+  border: 1em solid #cc33ff;
+   -moz-box-shadow:    inset 0 0 15px #000000;
+   -webkit-box-shadow: inset 0 0 15px #000000;
+   box-shadow:         inset 0 0 15px #000000;
+
+}
+
+
+#guess_submit {
+  margin-right: -5em;
+  border-radius: 2em;
+  border: .5em solid #60ba3e;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: white;
+  background: white;
+  text-align: center;
+  width: 150px;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  box-shadow: 0px 8px 5px #000;
+  -moz-box-shadow: 0px 8px 5px #000;
+  -webkit-box-shadow: 0px 8px 5px #000;
+}
+
+#guess_submit:hover {
+  position:relative;
+  top:3px;
+  color: #fqq;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+
+
 
 #dren_helper {
 	position: relative;
+  display: inline-block;
   float: left;
+  margin-left: -4em;
+  margin-top: 15em;
+  width: 340px;
+  height: 360px;
 	background-image:url('../img/dren_helper.png');
 	
 }
@@ -25,12 +90,36 @@
 }
 
 /* Cards */
-.correct {
-  background-color: #60ba3e;
+.feedback_correct {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  font-size: 2em;
+  color: #4f0c8d;
+  margin-top: 3em;
 }
 
-.wrong {
-  background-color: #4f0c8d;
+#dren_success {
+  background-image:url('../img/dren_run.png');
+  position: relative;
+  display: block;
+  height: 340px;
+  width: 300px;
+  /*margin-top: 35em;*/
+  margin-left: 50em;
+  
+}
+
+.feedback_wrong {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  font-size: 2em;
+  color: #4f0c8d;
+  margin-top: 3em;
+  margin-left: 18em;
 }
 
 .feedback {
@@ -38,8 +127,4 @@
 }
 
 
-#guess_input {
-  
-  background-color: gray;
- 
-}
+

@@ -1,6 +1,8 @@
+<div id="user_stats">
 <h1>Keep up the good work, <%= @user.username %>!</h1>
 
 <h3>Previous Rounds:</h3>
+<div>
 <% @rounds.each do |round| %>
   <div class="round_stats">
     <h2><%= round.deck.name %></h2>

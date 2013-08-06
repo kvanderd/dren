@@ -1,5 +1,7 @@
 <% if @correct %>
-  <h2 class="feedback correct">You're Correct! The answer is <%=@card.answer%>.</h2>
+  <h2 class="feedback_correct">You Got It! The answer is <%=@card.answer%>.</h2>
+  <div id="dren_success"></div>
 <% else %>
-  <h2 class="feedback wrong"> The correct answer is <%=@card.answer%>.</h2>
+
+  <h2 class="feedback_wrong">The correct answer is <%=@card.answer%>.</h2>
 <% end %>
