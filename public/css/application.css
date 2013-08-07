@@ -69,7 +69,7 @@ nav {
  }
  
  body {
-  background-image:url('../img/background_smaller_copy1.gif');
+  background-image:url('../img/background_smaller_copy1.gif') no-repeat;
   display; block; 
   position: relative;
 }

@@ -7,7 +7,7 @@
 }
 
 .whole_card {
-  background-image:url('../img/chalkboard.gif');
+  background-image:url('../img/chalkboard.gif') no-repeat;
   height: 470px;
   width: 600px;
   display: inline-block;
@@ -81,7 +81,7 @@
   margin-top: 15em;
   width: 340px;
   height: 360px;
-	background-image:url('../img/dren_helper.png');
+	background-image:url('../img/dren_helper.png') no-repeat;
 	
 }
 
@@ -101,7 +101,7 @@
 }
 
 #dren_success {
-  background-image:url('../img/dren_run.png');
+  background-image:url('../img/dren_run.png') no-repeat;
   position: relative;
   display: block;
   height: 340px;

@@ -49,7 +49,7 @@
 }*/
 
 #dren {
-	background-image:url('../img/dren3.png');
+	background-image:url('../img/dren3.png') no-repeat;
 	width: 700px;
 	height: 690px;
 	float: right;

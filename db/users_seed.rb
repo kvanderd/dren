@@ -8,3 +8,4 @@ require 'faker'
 
 	User.create(user_args)
 end
+
