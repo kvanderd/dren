@@ -19,8 +19,6 @@ GEM
     daemons (1.1.9)
     diff-lcs (1.2.4)
     eventmachine (1.0.3)
-    faker (1.1.2)
-      i18n (~> 0.5)
     i18n (0.6.4)
     multi_json (1.7.7)
     pg (0.15.1)
@@ -65,7 +63,6 @@ DEPENDENCIES
   activerecord
   activesupport
   awesome_print
-  faker
   pg
   rake
   rspec
