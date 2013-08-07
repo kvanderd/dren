@@ -2,10 +2,11 @@
 
 
 #login_form {
-	width: 650px;
+	width: 550px;
 	height: 300px;
 	display: inline-block;
 	position: relative;
+	float: left;
 	margin-left: 5em;
 }
 
@@ -39,9 +40,7 @@
 	font-size: 30px;
 }
 
-.placeholder {
-	color: green;
-}
+
 
 /*h2 {
  color: #643e27;
@@ -49,14 +48,14 @@
 }*/
 
 #dren {
-	background-image:url('../img/dren3.png') no-repeat;
-	width: 700px;
+	background-image:url('../img/dren3.png');
+	width: 600px;
 	height: 690px;
 	float: right;
 	display: inline-block;
 	position: relative;
-	margin-top: 2em;
-	margin-right: 10em;
+	/*margin-top: 2em;*/
+	margin-right: 20em;
 	
 }
 

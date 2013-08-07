@@ -1,11 +1,12 @@
 #container {
  /* margin: 20px auto;
   padding: 20px;*/
-  position: relative;
+  position: fixed;
   display: inline-block;
   font-family: Finger Paint;
   width: auto;
   max-height: 80%;
+  
 
 }
 
@@ -69,7 +70,7 @@ nav {
  }
  
  body {
-  background-image:url('../img/background_smaller_copy1.gif') no-repeat;
+  background-image:url('../img/background_smaller_copy1.gif');
   display; block; 
   position: relative;
 }

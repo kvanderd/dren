@@ -101,7 +101,7 @@
 }
 
 #dren_success {
-  background-image:url('../img/dren_run.png') no-repeat;
+  background-image:url('../img/dren_run.png');
   position: relative;
   display: block;
   height: 340px;
